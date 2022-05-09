@@ -30,6 +30,15 @@ while(i > 0) {
     console.log(i);
 }
 
+function FlexibleCountdown(lowNum, highNum, mult) {
+    for(var i = highNum; i > lowNum; i--) {
+        if(i % mult == 0) {
+            console.log(i);
+        }
+    }
+}
+FlexibleCountdown(2, 16, 3);
+
 function fc(p1, p2, p3, p4) {
     var i = p2;
     while(i < p3) {
